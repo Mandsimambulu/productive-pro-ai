@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Aurium — AI Workplace Productivity Assistant" },
       { name: "description", content: "Automate workplace tasks with AI: emails, meeting summaries, task planning, research and chat." },
-      { property: "og:title", content: "Aurium — AI Workplace Productivity" },
-      { property: "og:description", content: "Automate workplace tasks with AI." },
+      { property: "og:title", content: "Aurium — AI Workplace Productivity Assistant" },
+      { property: "og:description", content: "Automate workplace tasks with AI: emails, meeting summaries, task planning, research and chat." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Aurium — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Automate workplace tasks with AI: emails, meeting summaries, task planning, research and chat." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7ddb144f-af77-44d7-8362-358fbc5a2119/id-preview-085cfc93--4bb615ae-9a18-4c2a-9c22-db46d92aa904.lovable.app-1779271628127.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7ddb144f-af77-44d7-8362-358fbc5a2119/id-preview-085cfc93--4bb615ae-9a18-4c2a-9c22-db46d92aa904.lovable.app-1779271628127.png" },
     ],
     links: [
       {
